@@ -27,6 +27,7 @@ The macro initiates an automated batch image processing and exporting procedure,
 5. **Post-Processing:** Removes labels in contact with image edges and applies quality control filters, including size, Geodesic Elongation ratio, and Touching Neighbor counting, to minimize edge artifacts from the Voronoi-like extension.
 6. **Distance Mesh Generation:** Employs the `drawDistanceMeshBetweenTouchingLabels` function from the CLIJ2 libraries to create the Distance Mesh.
 7. **Scale Calibration:** Multiplies the resulting Distance Mesh image by the `Scale_calibration_ratio` to convert units from pixels to micrometers (µm).
+8. **Distance Mesh Dilation:** Dilates the distance mesh using Morphological Filters in MorpholibJ to enhance visualization.
 
 ## Output
 The macro outputs a Distance Mesh image, representing the spatial relationships between cells, which is crucial for quantitative cellular analysis.
@@ -38,7 +39,6 @@ Reference
 
 2. **Huang Threshold Method (ImageJ / CLIJ)**:
    - Huang, L.-K., & Wang, M.-J. J. (1995). Image thresholding by minimizing the measures of fuzziness. *Pattern Recognition, 28*(1), 41-51. [doi:10.1016/0031-3203(94)e0043-k](https://doi.org/10.1016/0031-3203(94)e0043-k)
-   - [PDF Available]
 
 3. **CLIJ2**:
    - Haase, R., Royer, L. A., Steinbach, P., Schmidt, D., Dibrov, A., Schmidt, U., ... & Myers, E. W. (2020). CLIJ: GPU-accelerated image processing for everyone. *Nature Methods, 17*, 5-6. [doi:10.1038/s41592-019-0650-1](https://doi.org/10.1038/s41592-019-0650-1)
