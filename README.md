@@ -31,6 +31,28 @@ The macro initiates an automated batch image processing and exporting procedure,
 ## Output
 The macro outputs a Distance Mesh image, representing the spatial relationships between cells, which is crucial for quantitative cellular analysis.
 
+
+Reference
+1. **FIJI**:
+   - Schindelin, J., Arganda-Carreras, I., Frise, E., Kaynig, V., Longair, M., Pietzsch, T., ... & Cardona, A. (2012). Fiji: an open-source platform for biological-image analysis. *Nature Methods, 9*(7), 676-682. [doi:10.1038/nmeth.2019](https://doi.org/10.1038/nmeth.2019)
+
+2. **Huang Threshold Method (ImageJ / CLIJ)**:
+   - Huang, L.-K., & Wang, M.-J. J. (1995). Image thresholding by minimizing the measures of fuzziness. *Pattern Recognition, 28*(1), 41-51. [doi:10.1016/0031-3203(94)e0043-k](https://doi.org/10.1016/0031-3203(94)e0043-k)
+   - [PDF Available]
+
+3. **CLIJ2**:
+   - Haase, R., Royer, L. A., Steinbach, P., Schmidt, D., Dibrov, A., Schmidt, U., ... & Myers, E. W. (2020). CLIJ: GPU-accelerated image processing for everyone. *Nature Methods, 17*, 5-6. [doi:10.1038/s41592-019-0650-1](https://doi.org/10.1038/s41592-019-0650-1)
+   - Vorkel, D., & Haase, R. GPU-accelerating ImageJ Macro image processing workflows using CLIJ. *arXiv preprint*.
+   - Haase, R., Jain, A., Rigaud, S., Vorkel, D., Rajasekhar, P., Suckert, T., ... & Myers, E. W. Interactive design of GPU-accelerated Image Data Flow Graphs and cross-platform deployment using multi-lingual code generation. *bioRxiv preprint*.
+
+4. **MorphoLibJ**:
+   - Legland, D., Arganda-Carreras, I., & Andrey, P. (2016). MorphoLibJ: integrated library and plugins for mathematical morphology with ImageJ. *Bioinformatics, 32*(22), 3532-3534. [doi:10.1093/bioinformatics/btw413](https://doi.org/10.1093/bioinformatics/btw413)
+
+5. **LaRoMe (LABEL Image to ROI function bundle with PTBIOP)**:
+   - GitHub - BIOP/ijp-LaRoMe: Some useful functions to get Label from ROIs and vice versa, and more! [GitHub Repository]. Retrieved from [URL of the GitHub repository].
+
+
+
 ---
 
 For any issues, suggestions, or contributions, please open an issue or submit a pull request. Your feedback is invaluable in improving this tool.
