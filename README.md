@@ -1,9 +1,6 @@
 [![DOI](https://zenodo.org/badge/739574986.svg)](https://zenodo.org/doi/10.5281/zenodo.10463895)
 
 # Cell_Dist_Mesh_Generator
-
-# Cell Distance Mesh Generator Macro for FIJI/ImageJ
-
 This repository hosts the `Cell_Dist_Mesh_Generator_V5.ijm`, a FIJI/ImageJ macro tailored for the automated generation of distance meshes between cells, aiding in quantitative visualization.
 
 ## Prerequisites
