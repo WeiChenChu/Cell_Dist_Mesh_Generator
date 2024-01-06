@@ -5,10 +5,13 @@ This repository hosts the `Cell_Dist_Mesh_Generator_V5.ijm`, a FIJI/ImageJ macro
 
 ## Prerequisites
 Before using this macro, ensure the following plugins are activated through the FIJI Updater:
-- CLIJ
-- CLIJ2
-- PTBIOP
-- MorpholibJ
+- clij
+- clij2
+- clijx-assistant
+- clijx-assistant-extension
+- 3D ImageJ Suite (dependency of clijx-assistant-extension)
+- PTBIOP (LaRoMe)
+- IJPB-Plugins (MorphoLibJ)
 
 ## Usage Instructions
 1. Load the `Cell_Dist_Mesh_Generator_V5.ijm` macro in FIJI and click 'Run'.
