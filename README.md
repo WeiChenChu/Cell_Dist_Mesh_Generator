@@ -49,7 +49,7 @@ Reference
    - Legland, D., Arganda-Carreras, I., & Andrey, P. (2016). MorphoLibJ: integrated library and plugins for mathematical morphology with ImageJ. *Bioinformatics, 32*(22), 3532-3534. [doi:10.1093/bioinformatics/btw413](https://doi.org/10.1093/bioinformatics/btw413)
 
 5. **LaRoMe (LABEL Image to ROI function bundle with PTBIOP)**:
-   - GitHub - BIOP/ijp-LaRoMe: Some useful functions to get Label from ROIs and vice versa, and more! https://arxiv.org/abs/2008.11799
+   - GitHub - BIOP/ijp-LaRoMe: Some useful functions to get Label from ROIs and vice versa, and more! https://github.com/BIOP/ijp-LaRoMe
 
 
 
