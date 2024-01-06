@@ -36,7 +36,7 @@ The macro initiates an automated batch image processing and exporting procedure,
 The macro outputs a Distance Mesh image, representing the spatial relationships between cells, which is crucial for quantitative cellular analysis.
 
 
-##Reference
+## Reference
 1. **FIJI**:
    - Schindelin, J., Arganda-Carreras, I., Frise, E., Kaynig, V., Longair, M., Pietzsch, T., ... & Cardona, A. (2012). Fiji: an open-source platform for biological-image analysis. *Nature Methods, 9*(7), 676-682. [doi:10.1038/nmeth.2019](https://doi.org/10.1038/nmeth.2019)
 
